@@ -1975,7 +1975,7 @@ design rules under a new name.</description>
 <element name="C9" library="microbuilder" package="0603-MINI" value="10uF" x="2.54" y="21.59"/>
 <element name="C12" library="resistor" package="C1206" value="47uF" x="5.08" y="2.54"/>
 <element name="C1" library="microbuilder" package="0603-MINI" value="1uF" x="33.02" y="11.43" rot="R90"/>
-<element name="U$27" library="SmartWatch" package="28QFN4X4" value="LTC3557" x="17.78" y="15.24"/>
+<element name="U6" library="SmartWatch" package="28QFN4X4" value="LTC3557" x="17.78" y="15.24"/>
 </elements>
 <signals>
 <signal name="DCC">

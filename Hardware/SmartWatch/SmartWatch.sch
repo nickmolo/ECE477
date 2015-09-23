@@ -8408,7 +8408,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="10uF"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C1206" value="47uF"/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="1uF"/>
-<part name="U$27" library="SmartWatch" deviceset="LTC3557" device=""/>
+<part name="U6" library="SmartWatch" deviceset="LTC3557" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8493,7 +8493,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C9" gate="G$1" x="162.56" y="38.1" rot="R180"/>
 <instance part="C12" gate="G$1" x="241.3" y="5.08"/>
 <instance part="C1" gate="G$1" x="13.97" y="69.85" rot="R180"/>
-<instance part="U$27" gate="G$1" x="198.12" y="-48.26"/>
+<instance part="U6" gate="G$1" x="198.12" y="-48.26"/>
 </instances>
 <busses>
 </busses>
