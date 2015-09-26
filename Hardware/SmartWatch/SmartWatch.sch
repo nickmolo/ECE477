@@ -8494,6 +8494,30 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="U$28" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
 <part name="RN1" library="MicroBoard" deviceset="2R-N" device="EXBV4V"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="U$30" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$31" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$32" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$33" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$34" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$35" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$36" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$37" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="10uF"/>
+<part name="U$38" library="microbuilder" deviceset="GND" device=""/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="2.5k"/>
+<part name="U$39" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$40" library="microbuilder" deviceset="GND" device=""/>
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="10uF"/>
+<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="2.2uF"/>
+<part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0603MINI" value="2.2uF"/>
+<part name="U$41" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$42" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8579,17 +8603,41 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <instance part="C1" gate="G$1" x="13.97" y="69.85" rot="R180"/>
 <instance part="U6" gate="G$1" x="198.12" y="-48.26"/>
 <instance part="U$27" gate="1" x="298.45" y="92.71"/>
-<instance part="BTN_NRST" gate="G$1" x="298.45" y="-11.43"/>
-<instance part="BTN_BOOT0" gate="G$1" x="298.45" y="-19.05"/>
-<instance part="BTN_BACK" gate="G$1" x="298.45" y="-26.67"/>
-<instance part="BTN_DN" gate="G$1" x="298.45" y="-34.29"/>
-<instance part="BTN_UP" gate="G$1" x="298.45" y="-41.91"/>
-<instance part="BTN_SEL" gate="G$1" x="298.45" y="-49.53"/>
+<instance part="BTN_NRST" gate="G$1" x="298.45" y="-1.27"/>
+<instance part="BTN_BOOT0" gate="G$1" x="298.45" y="-21.59"/>
+<instance part="BTN_BACK" gate="G$1" x="298.45" y="-41.91"/>
+<instance part="BTN_DN" gate="G$1" x="330.2" y="-1.27"/>
+<instance part="BTN_UP" gate="G$1" x="330.2" y="-21.59"/>
+<instance part="BTN_SEL" gate="G$1" x="330.2" y="-41.91"/>
 <instance part="U$16" gate="G$1" x="203.2" y="5.08"/>
 <instance part="U$28" gate="G$1" x="217.17" y="5.08" rot="R90"/>
 <instance part="U$29" gate="G$1" x="191.77" y="-10.16"/>
-<instance part="RN1" gate="A" x="173.99" y="7.62"/>
-<instance part="RN1" gate="B" x="173.99" y="2.54"/>
+<instance part="RN1" gate="A" x="173.99" y="2.54"/>
+<instance part="RN1" gate="B" x="173.99" y="7.62"/>
+<instance part="R13" gate="G$1" x="290.83" y="-6.35" rot="R90"/>
+<instance part="R14" gate="G$1" x="290.83" y="-26.67" rot="R90"/>
+<instance part="R15" gate="G$1" x="290.83" y="-46.99" rot="R90"/>
+<instance part="R16" gate="G$1" x="322.58" y="-6.35" rot="R90"/>
+<instance part="R17" gate="G$1" x="322.58" y="-26.67" rot="R90"/>
+<instance part="R18" gate="G$1" x="322.58" y="-46.99" rot="R90"/>
+<instance part="U$30" gate="G$1" x="308.61" y="6.35"/>
+<instance part="U$31" gate="G$1" x="290.83" y="-13.97"/>
+<instance part="U$32" gate="G$1" x="290.83" y="-34.29"/>
+<instance part="U$33" gate="G$1" x="290.83" y="-54.61"/>
+<instance part="U$34" gate="G$1" x="322.58" y="-13.97"/>
+<instance part="U$35" gate="G$1" x="322.58" y="-34.29"/>
+<instance part="U$36" gate="G$1" x="322.58" y="-54.61"/>
+<instance part="U$37" gate="G$1" x="340.36" y="6.35"/>
+<instance part="C13" gate="G$1" x="158.75" y="-38.1" rot="R180"/>
+<instance part="U$38" gate="G$1" x="158.75" y="-45.72"/>
+<instance part="R19" gate="G$1" x="173.99" y="-43.18"/>
+<instance part="U$39" gate="G$1" x="166.37" y="-43.18" rot="R270"/>
+<instance part="U$40" gate="G$1" x="176.53" y="-50.8" rot="R270"/>
+<instance part="C15" gate="G$1" x="241.3" y="-27.94" rot="R180"/>
+<instance part="C16" gate="G$1" x="228.6" y="-35.56"/>
+<instance part="C17" gate="G$1" x="234.95" y="-33.02"/>
+<instance part="U$41" gate="G$1" x="234.95" y="-43.18"/>
+<instance part="U$42" gate="G$1" x="177.8" y="-73.66" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8806,6 +8854,59 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="191.77" y1="0" x2="191.77" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U$29" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="U$32" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="U$31" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="U$33" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="U$34" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="U$35" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="U$36" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="U$38" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="U$39" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$40" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="NTC"/>
+<wire x1="179.07" y1="-50.8" x2="180.34" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="-38.1" x2="228.6" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U$41" gate="G$1" pin="GND"/>
+<wire x1="228.6" y1="-40.64" x2="234.95" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="-40.64" x2="241.3" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-40.64" x2="241.3" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="234.95" y="-40.64"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="234.95" y1="-35.56" x2="234.95" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="U$42" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="BT_SCK" class="0">
 <segment>
@@ -9001,6 +9102,34 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U$30" gate="G$1" pin="3.3V"/>
+<wire x1="308.61" y1="3.81" x2="308.61" y2="-1.27" width="0.1524" layer="91"/>
+<pinref part="BTN_BACK" gate="G$1" pin="34"/>
+<wire x1="308.61" y1="-1.27" x2="308.61" y2="-21.59" width="0.1524" layer="91"/>
+<wire x1="308.61" y1="-21.59" x2="308.61" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="308.61" y1="-41.91" x2="303.53" y2="-41.91" width="0.1524" layer="91"/>
+<pinref part="BTN_BOOT0" gate="G$1" pin="34"/>
+<wire x1="303.53" y1="-21.59" x2="308.61" y2="-21.59" width="0.1524" layer="91"/>
+<junction x="308.61" y="-21.59"/>
+<pinref part="BTN_NRST" gate="G$1" pin="34"/>
+<wire x1="303.53" y1="-1.27" x2="308.61" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="308.61" y="-1.27"/>
+</segment>
+<segment>
+<pinref part="U$37" gate="G$1" pin="3.3V"/>
+<wire x1="340.36" y1="3.81" x2="340.36" y2="-1.27" width="0.1524" layer="91"/>
+<pinref part="BTN_SEL" gate="G$1" pin="34"/>
+<wire x1="340.36" y1="-1.27" x2="340.36" y2="-21.59" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="-21.59" x2="340.36" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="-41.91" x2="335.28" y2="-41.91" width="0.1524" layer="91"/>
+<pinref part="BTN_UP" gate="G$1" pin="34"/>
+<wire x1="335.28" y1="-21.59" x2="340.36" y2="-21.59" width="0.1524" layer="91"/>
+<junction x="340.36" y="-21.59"/>
+<pinref part="BTN_DN" gate="G$1" pin="34"/>
+<wire x1="335.28" y1="-1.27" x2="340.36" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="340.36" y="-1.27"/>
+</segment>
 </net>
 <net name="13V" class="0">
 <segment>
@@ -9186,13 +9315,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="U$16" gate="G$1" pin="VCC"/>
 <wire x1="195.58" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
 <label x="190.5" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$16" gate="G$1" pin="D-"/>
-<pinref part="RN1" gate="A" pin="2"/>
-<wire x1="195.58" y1="7.62" x2="179.07" y2="7.62" width="0.1524" layer="91"/>
+<label x="153.67" y="-35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ID" class="0">
@@ -9200,7 +9323,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="U$16" gate="G$1" pin="D+"/>
 <wire x1="195.58" y1="5.08" x2="181.61" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="5.08" x2="181.61" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="B" pin="2"/>
+<pinref part="RN1" gate="A" pin="2"/>
 <wire x1="181.61" y1="2.54" x2="179.07" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9211,18 +9334,139 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="190.5" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$16" gate="G$1" pin="D-"/>
+<pinref part="RN1" gate="B" pin="2"/>
+<wire x1="195.58" y1="7.62" x2="179.07" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="D-" class="0">
 <segment>
-<pinref part="RN1" gate="A" pin="1"/>
+<pinref part="RN1" gate="B" pin="1"/>
 <wire x1="168.91" y1="7.62" x2="166.37" y2="7.62" width="0.1524" layer="91"/>
 <label x="166.37" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="RN1" gate="B" pin="1"/>
+<pinref part="RN1" gate="A" pin="1"/>
 <wire x1="168.91" y1="2.54" x2="166.37" y2="2.54" width="0.1524" layer="91"/>
 <label x="166.37" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BNT_NRST" class="0">
+<segment>
+<pinref part="BTN_NRST" gate="G$1" pin="12"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="293.37" y1="-1.27" x2="290.83" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="290.83" y1="-1.27" x2="288.29" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="290.83" y="-1.27"/>
+<label x="288.29" y="-1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BTN_BOOT0" class="0">
+<segment>
+<pinref part="BTN_BOOT0" gate="G$1" pin="12"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="293.37" y1="-21.59" x2="290.83" y2="-21.59" width="0.1524" layer="91"/>
+<wire x1="290.83" y1="-21.59" x2="288.29" y2="-21.59" width="0.1524" layer="91"/>
+<junction x="290.83" y="-21.59"/>
+<label x="288.29" y="-21.59" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BTN_BACK" class="0">
+<segment>
+<pinref part="BTN_BACK" gate="G$1" pin="12"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="293.37" y1="-41.91" x2="290.83" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="290.83" y1="-41.91" x2="288.29" y2="-41.91" width="0.1524" layer="91"/>
+<junction x="290.83" y="-41.91"/>
+<label x="288.29" y="-41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BTN_DN" class="0">
+<segment>
+<pinref part="BTN_DN" gate="G$1" pin="12"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="-1.27" x2="322.58" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-1.27" x2="320.04" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="322.58" y="-1.27"/>
+<label x="320.04" y="-1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BTN_UP" class="0">
+<segment>
+<pinref part="BTN_UP" gate="G$1" pin="12"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="-21.59" x2="322.58" y2="-21.59" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-21.59" x2="320.04" y2="-21.59" width="0.1524" layer="91"/>
+<junction x="322.58" y="-21.59"/>
+<label x="320.04" y="-21.59" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BTN_SEL" class="0">
+<segment>
+<pinref part="BTN_SEL" gate="G$1" pin="12"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="-41.91" x2="322.58" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="-41.91" x2="320.04" y2="-41.91" width="0.1524" layer="91"/>
+<junction x="322.58" y="-41.91"/>
+<label x="320.04" y="-41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="153.67" y1="-35.56" x2="158.75" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="VBUS"/>
+<wire x1="158.75" y1="-35.56" x2="180.34" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="158.75" y="-35.56"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="U6" gate="G$1" pin="PROG"/>
+<wire x1="179.07" y1="-43.18" x2="180.34" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CHRG" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="!CHRG"/>
+<wire x1="215.9" y1="-35.56" x2="217.17" y2="-35.56" width="0.1524" layer="91"/>
+<label x="217.17" y="-35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="BAT"/>
+<wire x1="215.9" y1="-40.64" x2="217.17" y2="-40.64" width="0.1524" layer="91"/>
+<label x="217.17" y="-40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VOUT" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="VOUT"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-25.4" x2="215.9" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-25.4" x2="246.38" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="241.3" y="-25.4"/>
+<label x="246.38" y="-25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="BVIN1"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="-27.94" x2="234.95" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="BVIN2"/>
+<wire x1="228.6" y1="-30.48" x2="215.9" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
