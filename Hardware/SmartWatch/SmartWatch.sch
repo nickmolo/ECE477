@@ -10073,7 +10073,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="U$44" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP"/>
