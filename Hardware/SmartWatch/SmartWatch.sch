@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -522,6 +522,9 @@ package type TQ</description>
 <wire x1="-1.3" y1="-1.1" x2="-1.3" y2="1.1" width="0.127" layer="21"/>
 <circle x="-1.3" y="-1.1" radius="0.1" width="0.127" layer="21"/>
 </package>
+<package name="TESTPOINT-0603">
+<smd name="1" x="0" y="0" dx="1.7" dy="0.9" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BLE_MODULE_RAYTAC_MDBT40">
@@ -799,6 +802,16 @@ package type TQ</description>
 <text x="-6.985" y="4.318" size="1.524" layer="95">VCC</text>
 <text x="4.064" y="-3.556" size="1.524" layer="95">FO</text>
 <text x="3.81" y="5.588" size="1.524" layer="95">OE</text>
+</symbol>
+<symbol name="M01">
+<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1145,6 +1158,21 @@ package type TQ</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="OE" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPOINT-0603">
+<gates>
+<gate name="G$1" symbol="M01" x="-1.27" y="0"/>
+</gates>
+<devices>
+<device name="" package="TESTPOINT-0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10079,6 +10107,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="T1" library="SmartWatch" deviceset="TESTPOINT-0603" device=""/>
+<part name="T2" library="SmartWatch" deviceset="TESTPOINT-0603" device=""/>
+<part name="T3" library="SmartWatch" deviceset="TESTPOINT-0603" device=""/>
+<part name="T4" library="SmartWatch" deviceset="TESTPOINT-0603" device=""/>
+<part name="T5" library="SmartWatch" deviceset="TESTPOINT-0603" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10267,12 +10300,17 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R21" gate="G$1" x="158.75" y="-16.51" rot="R90"/>
 <instance part="U$44" gate="G$1" x="158.75" y="-8.89"/>
 <instance part="R22" gate="G$1" x="411.48" y="60.96" rot="R90"/>
-<instance part="JP1" gate="G$1" x="-33.02" y="24.13"/>
+<instance part="JP1" gate="G$1" x="-71.12" y="24.13"/>
 <instance part="JP2" gate="G$1" x="107.95" y="7.62"/>
 <instance part="JP3" gate="G$1" x="-33.02" y="78.74"/>
 <instance part="JP4" gate="G$1" x="-33.02" y="69.85"/>
 <instance part="JP5" gate="G$1" x="-33.02" y="60.96"/>
 <instance part="JP6" gate="G$1" x="-33.02" y="52.07"/>
+<instance part="T1" gate="G$1" x="-17.78" y="78.74"/>
+<instance part="T2" gate="G$1" x="-17.78" y="66.04"/>
+<instance part="T3" gate="G$1" x="-17.78" y="53.34"/>
+<instance part="T4" gate="G$1" x="-17.78" y="40.64"/>
+<instance part="T5" gate="G$1" x="-17.78" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -10841,8 +10879,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="24.13" x2="-22.86" y2="24.13" width="0.1524" layer="91"/>
-<label x="-22.86" y="24.13" size="1.27" layer="95" xref="yes"/>
+<wire x1="-63.5" y1="24.13" x2="-60.96" y2="24.13" width="0.1524" layer="91"/>
+<label x="-60.96" y="24.13" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
@@ -10861,6 +10899,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="22.86" y1="-15.24" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="20.32" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="53.34" x2="-7.62" y2="53.34" width="0.1524" layer="91"/>
+<label x="-7.62" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BT_MISO" class="0">
 <segment>
@@ -10873,6 +10916,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="22.86" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="91"/>
 <label x="20.32" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="T5" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="30.48" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="-7.62" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BT_MOSI" class="0">
 <segment>
@@ -10884,6 +10932,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U1" gate="PORTA" pin="P7"/>
 <wire x1="22.86" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
 <label x="20.32" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="T4" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<label x="-7.62" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BT_CS" class="0">
@@ -11093,6 +11146,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="52.07" y1="-38.1" x2="49.53" y2="-38.1" width="0.1524" layer="91"/>
 <label x="49.53" y="-38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="78.74" x2="-7.62" y2="78.74" width="0.1524" layer="91"/>
+<label x="-7.62" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -11118,6 +11176,11 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U1" gate="PORTB" pin="P13"/>
 <wire x1="52.07" y1="-35.56" x2="49.53" y2="-35.56" width="0.1524" layer="91"/>
 <label x="49.53" y="-35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="66.04" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
+<label x="-7.62" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -11364,8 +11427,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="26.67" x2="-22.86" y2="26.67" width="0.1524" layer="91"/>
-<label x="-22.86" y="26.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="-63.5" y1="26.67" x2="-60.96" y2="26.67" width="0.1524" layer="91"/>
+<label x="-60.96" y="26.67" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
