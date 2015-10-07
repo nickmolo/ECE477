@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11854,27 +11854,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="20.32" y="-40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PB3" class="0">
-<segment>
-<pinref part="U1" gate="PORTB" pin="P3"/>
-<wire x1="52.07" y1="-10.16" x2="49.53" y2="-10.16" width="0.1524" layer="91"/>
-<label x="49.53" y="-10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB4" class="0">
-<segment>
-<pinref part="U1" gate="PORTB" pin="P4"/>
-<wire x1="52.07" y1="-12.7" x2="49.53" y2="-12.7" width="0.1524" layer="91"/>
-<label x="49.53" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="U1" gate="PORTB" pin="P5"/>
-<wire x1="52.07" y1="-15.24" x2="49.53" y2="-15.24" width="0.1524" layer="91"/>
-<label x="49.53" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="PB6" class="0">
 <segment>
 <pinref part="U1" gate="PORTB" pin="P6"/>
@@ -12092,6 +12071,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="238.76" y1="-62.23" x2="236.22" y2="-62.23" width="0.1524" layer="91"/>
 <label x="236.22" y="-62.23" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="PORTB" pin="P3"/>
+<wire x1="52.07" y1="-10.16" x2="49.53" y2="-10.16" width="0.1524" layer="91"/>
+<label x="49.53" y="-10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="YELLOW" class="0">
 <segment>
@@ -12099,12 +12083,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="238.76" y1="-71.12" x2="236.22" y2="-71.12" width="0.1524" layer="91"/>
 <label x="236.22" y="-71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="PORTB" pin="P4"/>
+<wire x1="52.07" y1="-12.7" x2="49.53" y2="-12.7" width="0.1524" layer="91"/>
+<label x="49.53" y="-12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GREEN" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="-78.74" x2="236.22" y2="-78.74" width="0.1524" layer="91"/>
 <label x="236.22" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTB" pin="P5"/>
+<wire x1="52.07" y1="-15.24" x2="49.53" y2="-15.24" width="0.1524" layer="91"/>
+<label x="49.53" y="-15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
