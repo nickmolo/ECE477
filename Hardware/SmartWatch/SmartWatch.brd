@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -41,10 +41,10 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -145,9 +145,13 @@
 <wire x1="36.83" y1="40.64" x2="0" y2="40.64" width="0" layer="20"/>
 <wire x1="0" y1="40.64" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="37" y1="8" x2="72" y2="33" layer="49" rot="R90"/>
-<text x="30" y="26" size="1.778" layer="52" font="vector" ratio="15" rot="MR0">ECE 477 Group 4
+<text x="31.27" y="17.11" size="1.778" layer="48" font="vector" ratio="15" rot="MR0">ECE 477 Group 4
+Rev 1.0
 Designed by
-Nick Molo</text>
+Nick Molo
+John Lee
+Harry Jung
+Josh Wroblewski</text>
 <text x="4.826" y="38.1" size="1.778" layer="51" font="vector" ratio="15">+</text>
 </plain>
 <libraries>
@@ -486,11 +490,11 @@ package type TQ</description>
 <smd name="1" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
 <smd name="3" x="-1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
 <smd name="4" x="1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
-<wire x1="-1.75" y1="1.45" x2="1.75" y2="1.45" width="0.127" layer="48"/>
-<wire x1="-1.75" y1="-1.45" x2="1.75" y2="-1.45" width="0.127" layer="48"/>
-<wire x1="-0.85" y1="-2.1" x2="0.85" y2="-2.1" width="0.127" layer="20"/>
-<wire x1="-1.75" y1="1.45" x2="-1.75" y2="-1.45" width="0.127" layer="48"/>
-<wire x1="1.75" y1="1.45" x2="1.75" y2="-1.45" width="0.127" layer="48"/>
+<wire x1="-1.75" y1="1.45" x2="1.75" y2="1.45" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.45" x2="1.75" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="-2.1" x2="0.85" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.45" x2="-1.75" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.45" x2="1.75" y2="-1.45" width="0.127" layer="51"/>
 </package>
 <package name="MICRO-USB">
 <smd name="3" x="0" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
