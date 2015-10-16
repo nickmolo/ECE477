@@ -41,11 +41,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2423,7 +2423,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U12" pad="P$1"/>
 <contactref element="U12" pad="P$4"/>
 <contactref element="U12" pad="P$9"/>
-<wire x1="24.273484375" y1="7.46793125" x2="24.384" y2="7.366" width="0" layer="19" extent="1-1"/>
+<wire x1="24.384" y1="7.366" x2="24.384" y2="7.578446875" width="0.254" layer="1"/>
+<wire x1="24.384" y1="7.578446875" x2="24.448475" y2="7.642921875" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U2" pad="3"/>
