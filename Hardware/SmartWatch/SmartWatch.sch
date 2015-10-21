@@ -10548,9 +10548,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="82"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="82"/>
+<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="82"/>
 <part name="U12" library="SparkFun-DigitalIC" deviceset="MAX17048" device="DFN8" value="MAX17048">
 <attribute name="PROD_ID" value="IC-12551"/>
 </part>

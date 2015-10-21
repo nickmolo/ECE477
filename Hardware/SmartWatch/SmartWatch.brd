@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2262,9 +2262,9 @@ Please make sure your boards conform to these design rules.</description>
 <element name="D4" library="SparkFun-LED" package="LED-0603" value="" x="8.128" y="4.318" rot="R180"/>
 <element name="D5" library="SparkFun-LED" package="LED-0603" value="" x="9.652" y="4.318" rot="R180"/>
 <element name="D6" library="SparkFun-LED" package="LED-0603" value="" x="11.176" y="4.318" rot="R180"/>
-<element name="R23" library="resistor" package="R0603" value="10k" x="8.128" y="7.493" rot="R270"/>
-<element name="R24" library="resistor" package="R0603" value="10k" x="9.652" y="7.493" rot="R270"/>
-<element name="R25" library="resistor" package="R0603" value="10k" x="11.176" y="7.493" rot="R270"/>
+<element name="R23" library="resistor" package="R0603" value="82" x="8.128" y="7.493" rot="R270"/>
+<element name="R24" library="resistor" package="R0603" value="82" x="9.652" y="7.493" rot="R270"/>
+<element name="R25" library="resistor" package="R0603" value="82" x="11.176" y="7.493" rot="R270"/>
 <element name="U12" library="SparkFun-DigitalIC" package="DFN-8" value="MAX17048" x="3.556" y="27.178" rot="R180">
 <attribute name="PROD_ID" value="IC-12551" x="7.366" y="20.828" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
