@@ -10556,6 +10556,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </part>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C30" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF">
+<attribute name="PROD_ID" value="CAP-08280"/>
+</part>
+<part name="GND22" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10766,6 +10770,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </instance>
 <instance part="GND19" gate="1" x="248.92" y="-21.59"/>
 <instance part="GND21" gate="1" x="218.44" y="-21.59"/>
+<instance part="C30" gate="G$1" x="207.01" y="-3.81">
+<attribute name="PROD_ID" x="207.01" y="-3.81" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND22" gate="1" x="207.01" y="-13.97"/>
 </instances>
 <busses>
 </busses>
@@ -11370,6 +11378,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="218.44" y1="-19.05" x2="218.44" y2="-16.51" width="0.1524" layer="91"/>
 <junction x="218.44" y="-16.51"/>
 </segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="207.01" y1="-11.43" x2="207.01" y2="-8.89" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BT_SCK" class="0">
 <segment>
@@ -11929,9 +11942,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="218.44" y1="-1.27" x2="218.44" y2="-6.35" width="0.1524" layer="91"/>
 <pinref part="U12" gate="G$1" pin="CELL"/>
 <wire x1="218.44" y1="-6.35" x2="220.98" y2="-6.35" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="-1.27" x2="213.36" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-1.27" x2="207.01" y2="-1.27" width="0.1524" layer="91"/>
 <junction x="218.44" y="-1.27"/>
-<label x="213.36" y="-1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="201.93" y="-1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="207.01" y1="-1.27" x2="201.93" y2="-1.27" width="0.1524" layer="91"/>
+<junction x="207.01" y="-1.27"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
