@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2165,7 +2165,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PROD_ID" value="SEN-12005" x="17" y="37.492" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="C4" library="resistor" package="C0603" value="0.1uF" x="10.894" y="23.58" rot="R90"/>
-<element name="C5" library="resistor" package="C0603" value="0.1uF" x="7.832" y="28.2954"/>
+<element name="C5" library="resistor" package="C0603" value="0.1uF" x="7.832" y="28.4732"/>
 <element name="C11" library="resistor" package="C0603" value="0.1uF" x="14.332" y="38.142" rot="R270"/>
 <element name="R9" library="resistor" package="R0603" value="10k" x="19.46" y="38.332" rot="R90"/>
 <element name="C14" library="resistor" package="C0603" value="1uF" x="13.5346" y="8.678" rot="MR270"/>
@@ -2204,7 +2204,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U7" library="SparkFun-PowerIC" package="SOT23-5" value="AP2112K-3.3TRG-1" x="7.732" y="32.896" rot="R180">
 <attribute name="PROD_ID" value="VREG-12457" x="11.542" y="26.546" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
-<element name="C13" library="resistor" package="C0603" value="2.2uF" x="7.874" y="29.464" rot="R180"/>
+<element name="C13" library="resistor" package="C0603" value="2.2uF" x="7.874" y="29.6418" rot="R180"/>
 <element name="C17" library="resistor" package="C0603" value="1uF" x="11.1986" y="34.8892" rot="R90">
 <attribute name="PROD_ID" value="CAP-00868" x="9.9286" y="27.2692" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
@@ -2647,10 +2647,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.2" y1="29.5005" x2="11.2" y2="30.71" width="0.254" layer="1"/>
 <wire x1="11.2" y1="30.71" x2="11.176" y2="30.734" width="0.254" layer="1"/>
 <wire x1="10.5875" y1="28.088" x2="9.118" y2="28.088" width="0.254" layer="1"/>
-<wire x1="9.118" y1="28.088" x2="8.682" y2="28.2954" width="0.254" layer="1"/>
+<wire x1="9.118" y1="28.088" x2="8.682" y2="28.4732" width="0.254" layer="1"/>
 <wire x1="10.5875" y1="27.588" x2="10.5875" y2="28.088" width="0.254" layer="1"/>
-<wire x1="8.682" y1="28.2954" x2="8.682" y2="29.714621875" width="0.254" layer="1"/>
-<wire x1="8.682" y1="29.714621875" x2="8.724" y2="29.464" width="0.254" layer="1"/>
+<wire x1="8.682" y1="28.4732" x2="8.682" y2="29.714621875" width="0.254" layer="1"/>
+<wire x1="8.682" y1="29.714621875" x2="8.724" y2="29.6418" width="0.254" layer="1"/>
 <wire x1="9.906" y1="32.004" x2="11.43" y2="32.004" width="0.4064" layer="1"/>
 <wire x1="11.43" y1="32.004" x2="12.192" y2="32.766" width="0.4064" layer="1"/>
 <wire x1="12.192" y1="32.766" x2="12.192" y2="35.052" width="0.4064" layer="1"/>
@@ -2707,7 +2707,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.114" y1="5.08" x2="23.114" y2="5.322571875" width="0.254" layer="1"/>
 <wire x1="23.114" y1="5.322571875" x2="23.24410625" y2="5.452678125" width="0.254" layer="1"/>
 <wire x1="8.58380625" y1="31.49770625" x2="8.58380625" y2="29.939815625" width="0.254" layer="1"/>
-<wire x1="8.58380625" y1="29.939815625" x2="8.724" y2="29.464" width="0.254" layer="1"/>
+<wire x1="8.58380625" y1="29.939815625" x2="8.724" y2="29.6418" width="0.254" layer="1"/>
 <wire x1="18.77" y1="23.166" x2="19.7772" y2="23.166" width="0.254" layer="1"/>
 <wire x1="19.7772" y1="23.166" x2="19.5486" y2="23.1914" width="0.254" layer="1"/>
 <wire x1="4.572" y1="15.24" x2="6.604" y2="17.272" width="0.254" layer="16"/>
