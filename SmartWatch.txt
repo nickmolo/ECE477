@@ -1,6 +1,6 @@
 Configuration	SmartWatch
-STM32CubeMX 	4.10.0
-Date	10/15/2015
+STM32CubeMX 	4.11.0
+Date	11/01/2015
 MCU	STM32L476RGTx
 
 
