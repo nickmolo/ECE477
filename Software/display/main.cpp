@@ -17,6 +17,14 @@
 #define CLK   PA_5  // CLK D13
 #define DATA  PA_7  // MOSI D11
 
+#define BLUEFRUIT_SPI_CS               PB_10
+#define BLUEFRUIT_SPI_IRQ              PA_8
+#define BLUEFRUIT_SPI_RST              PA_10
+
+#define BLUEFRUIT_SPI_SCK              PB_3
+#define BLUEFRUIT_SPI_MISO             PB_4
+#define BLUEFRUIT_SPI_MOSI             PB_5
+
 void render();
 void displayFunction( void );
 // SSD1306 oled(p8 /* cs */, p9 /* reset */, p14 /* dc */, p13 /* clock */, p11 /* data */); // LPC1768
@@ -39,12 +47,12 @@ void render() {
 
 void displayFunction( void )
 {
-    oled.fillRect(20,35,80,20,oled.Color565(0,0,0));
+    oled.fillRect(10,35,118,20,oled.Color565(0,0,0));
     char sTime[8];
-    sprintf(sTime, "%d:%d:%d", hours, minutes, seconds);
+    sprintf(sTime, "%.2d:%.2d:%.2d", hours, minutes, seconds);
     
     if(cScreen == 0) {
-        oled.drawString(20,35, sTime, oled.Color565(255,255,255), oled.Color565(255,255,255),2);
+        oled.drawString(10,35, sTime, oled.Color565(255,255,255), oled.Color565(255,255,255),2);
          //oled.drawString(0,35, "Testing", oled.Color565(255,255,255), oled.Color565(255,255,255),1);
     }
     seconds = seconds + 1;
