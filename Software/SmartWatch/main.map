@@ -1,0 +1,836 @@
+Archive member included because of file (symbol)
+
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (exit)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (__libc_init_array)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o (memset)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (atexit)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .data          0x00000000        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .text          0x00000000      0x114 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.extab     0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.exidx     0x00000000        0x8 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .ARM.attributes
+                0x00000000       0x14 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+ .text          0x00000000       0x14 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .data          0x00000000        0x0 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .bss           0x00000000        0x0 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .bss           0x00000000        0x0 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .data          0x00000000        0x0 Src/dma.o
+ .bss           0x00000000        0x0 Src/dma.o
+ .data          0x00000000        0x0 Src/gpio.o
+ .bss           0x00000000        0x0 Src/gpio.o
+ .data          0x00000000        0x0 Src/i2c.o
+ .data          0x00000000        0x0 Src/main.o
+ .bss           0x00000000        0x0 Src/main.o
+ .data          0x00000000        0x0 Src/rtc.o
+ .data          0x00000000        0x0 Src/spi.o
+ .text          0x00000000       0x34 Src/stm32l4xx_hal_msp.o
+ .data          0x00000000        0x0 Src/stm32l4xx_hal_msp.o
+ .bss           0x00000000        0x0 Src/stm32l4xx_hal_msp.o
+ .debug_info    0x00000000      0x585 Src/stm32l4xx_hal_msp.o
+ .debug_abbrev  0x00000000      0x11e Src/stm32l4xx_hal_msp.o
+ .debug_aranges
+                0x00000000       0x20 Src/stm32l4xx_hal_msp.o
+ .debug_ranges  0x00000000       0x20 Src/stm32l4xx_hal_msp.o
+ .debug_line    0x00000000      0x16c Src/stm32l4xx_hal_msp.o
+ .debug_str     0x00000000      0x821 Src/stm32l4xx_hal_msp.o
+ .comment       0x00000000       0x71 Src/stm32l4xx_hal_msp.o
+ .debug_frame   0x00000000       0x2c Src/stm32l4xx_hal_msp.o
+ .ARM.attributes
+                0x00000000       0x37 Src/stm32l4xx_hal_msp.o
+ .data          0x00000000        0x0 Src/stm32l4xx_it.o
+ .bss           0x00000000        0x0 Src/stm32l4xx_it.o
+ .data          0x00000000        0x0 Src/usb_otg.o
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x34 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0xf4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000      0x16c u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .eh_frame      0x00000000        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .jcr           0x00000000        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .ARM.attributes
+                0x00000000       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+ .text          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .data          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ .bss           0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+LOAD Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+LOAD Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+LOAD Src/dma.o
+LOAD Src/gpio.o
+LOAD Src/i2c.o
+LOAD Src/main.o
+LOAD Src/rtc.o
+LOAD Src/spi.o
+LOAD Src/stm32l4xx_hal_msp.o
+LOAD Src/stm32l4xx_it.o
+LOAD Src/usb_otg.o
+LOAD ./Drivers/STM32L4xx_HAL_Driver/libstm32fw.a
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libm.a
+START GROUP
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3\libgcc.a
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a
+END GROUP
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtend.o
+LOAD u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+                0x20018000                _estack = 0x20018000
+                0x00000200                _Min_Heap_Size = 0x200
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x8)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x8)
+
+.text           0x08000188      0xb90
+                0x08000188                . = ALIGN (0x8)
+ *(.text)
+ .text          0x08000188       0x98 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .text          0x08000220      0x104 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                0x08000220                SystemInit
+                0x08000270                SystemCoreClockUpdate
+ .text          0x08000324       0x64 Src/dma.o
+                0x08000324                MX_DMA_Init
+ .text          0x08000388       0xc8 Src/gpio.o
+                0x08000388                MX_GPIO_Init
+ .text          0x08000450       0xb8 Src/i2c.o
+                0x08000450                MX_I2C2_Init
+                0x08000488                HAL_I2C_MspInit
+                0x080004dc                HAL_I2C_MspDeInit
+ .text          0x08000508       0xbc Src/main.o
+                0x08000508                SystemClock_Config
+ .text          0x080005c4       0xe0 Src/rtc.o
+                0x080005c4                MX_RTC_Init
+                0x0800065c                HAL_RTC_MspInit
+                0x08000680                HAL_RTC_MspDeInit
+ .text          0x080006a4      0x274 Src/spi.o
+                0x080006a4                MX_SPI1_Init
+                0x080006f0                MX_SPI3_Init
+                0x0800074c                HAL_SPI_MspInit
+                0x080008b0                HAL_SPI_MspDeInit
+ .text          0x08000918       0x34 Src/stm32l4xx_it.o
+                0x08000918                SysTick_Handler
+                0x08000928                DMA1_Channel2_IRQHandler
+                0x08000934                DMA1_Channel3_IRQHandler
+                0x08000940                DMA2_Channel2_IRQHandler
+ .text          0x0800094c       0xfc Src/usb_otg.o
+                0x0800094c                MX_USB_OTG_FS_PCD_Init
+                0x0800097c                HAL_PCD_MspInit
+                0x080009f0                HAL_PCD_MspDeInit
+ *(.text*)
+ .text.Reset_Handler
+                0x08000a48       0x50 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+                0x08000a48                Reset_Handler
+ .text.Default_Handler
+                0x08000a98        0x2 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+                0x08000a98                RTC_Alarm_IRQHandler
+                0x08000a98                EXTI2_IRQHandler
+                0x08000a98                TIM8_TRG_COM_IRQHandler
+                0x08000a98                TIM8_CC_IRQHandler
+                0x08000a98                DebugMon_Handler
+                0x08000a98                DFSDM0_IRQHandler
+                0x08000a98                TIM1_CC_IRQHandler
+                0x08000a98                TSC_IRQHandler
+                0x08000a98                HardFault_Handler
+                0x08000a98                TAMP_STAMP_IRQHandler
+                0x08000a98                PendSV_Handler
+                0x08000a98                NMI_Handler
+                0x08000a98                EXTI3_IRQHandler
+                0x08000a98                LPTIM2_IRQHandler
+                0x08000a98                I2C3_ER_IRQHandler
+                0x08000a98                EXTI0_IRQHandler
+                0x08000a98                I2C2_EV_IRQHandler
+                0x08000a98                CAN1_RX0_IRQHandler
+                0x08000a98                FPU_IRQHandler
+                0x08000a98                TIM1_UP_TIM16_IRQHandler
+                0x08000a98                UsageFault_Handler
+                0x08000a98                ADC1_2_IRQHandler
+                0x08000a98                SPI1_IRQHandler
+                0x08000a98                TIM6_DAC_IRQHandler
+                0x08000a98                TIM8_UP_IRQHandler
+                0x08000a98                DMA1_Channel4_IRQHandler
+                0x08000a98                SAI2_IRQHandler
+                0x08000a98                USART3_IRQHandler
+                0x08000a98                DMA1_Channel7_IRQHandler
+                0x08000a98                CAN1_RX1_IRQHandler
+                0x08000a98                LCD_IRQHandler
+                0x08000a98                UART5_IRQHandler
+                0x08000a98                ADC3_IRQHandler
+                0x08000a98                TIM4_IRQHandler
+                0x08000a98                DMA2_Channel1_IRQHandler
+                0x08000a98                QUADSPI_IRQHandler
+                0x08000a98                I2C1_EV_IRQHandler
+                0x08000a98                DMA1_Channel6_IRQHandler
+                0x08000a98                UART4_IRQHandler
+                0x08000a98                DMA2_Channel4_IRQHandler
+                0x08000a98                TIM3_IRQHandler
+                0x08000a98                RCC_IRQHandler
+                0x08000a98                DMA1_Channel1_IRQHandler
+                0x08000a98                Default_Handler
+                0x08000a98                DMA2_Channel7_IRQHandler
+                0x08000a98                EXTI15_10_IRQHandler
+                0x08000a98                TIM7_IRQHandler
+                0x08000a98                SDMMC1_IRQHandler
+                0x08000a98                TIM5_IRQHandler
+                0x08000a98                I2C3_EV_IRQHandler
+                0x08000a98                DFSDM2_IRQHandler
+                0x08000a98                EXTI9_5_IRQHandler
+                0x08000a98                RTC_WKUP_IRQHandler
+                0x08000a98                PVD_PVM_IRQHandler
+                0x08000a98                SPI2_IRQHandler
+                0x08000a98                DFSDM3_IRQHandler
+                0x08000a98                MemManage_Handler
+                0x08000a98                CAN1_TX_IRQHandler
+                0x08000a98                SVC_Handler
+                0x08000a98                DMA2_Channel5_IRQHandler
+                0x08000a98                DMA1_Channel5_IRQHandler
+                0x08000a98                EXTI4_IRQHandler
+                0x08000a98                RNG_IRQHandler
+                0x08000a98                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000a98                COMP_IRQHandler
+                0x08000a98                WWDG_IRQHandler
+                0x08000a98                LPUART1_IRQHandler
+                0x08000a98                DMA2_Channel6_IRQHandler
+                0x08000a98                TIM2_IRQHandler
+                0x08000a98                EXTI1_IRQHandler
+                0x08000a98                USART2_IRQHandler
+                0x08000a98                I2C2_ER_IRQHandler
+                0x08000a98                TIM8_BRK_IRQHandler
+                0x08000a98                CAN1_SCE_IRQHandler
+                0x08000a98                FLASH_IRQHandler
+                0x08000a98                BusFault_Handler
+                0x08000a98                USART1_IRQHandler
+                0x08000a98                OTG_FS_IRQHandler
+                0x08000a98                SPI3_IRQHandler
+                0x08000a98                I2C1_ER_IRQHandler
+                0x08000a98                FMC_IRQHandler
+                0x08000a98                SWPMI1_IRQHandler
+                0x08000a98                LPTIM1_IRQHandler
+                0x08000a98                DFSDM1_IRQHandler
+                0x08000a98                SAI1_IRQHandler
+                0x08000a98                DMA2_Channel3_IRQHandler
+                0x08000a98                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000a9a        0x2 
+ .text.startup  0x08000a9c       0x60 Src/main.o
+                0x08000a9c                main
+ .text.__libc_init_array
+                0x08000afc       0x80 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                0x08000afc                __libc_init_array
+ .text.startup.register_fini
+                0x08000b7c       0x24 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08000ba0       0x20 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                0x08000ba0                atexit
+ .text.__libc_fini_array
+                0x08000bc0       0x48 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                0x08000bc0                __libc_fini_array
+ .text.__register_exitproc
+                0x08000c08       0xe0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                0x08000c08                __register_exitproc
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08000ce8        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ *(.init)
+ .init          0x08000ce8        0xc u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                0x08000ce8                _init
+ .init          0x08000cf4        0xc u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+ *(.fini)
+ .fini          0x08000d00        0xc u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                0x08000d00                _fini
+ .fini          0x08000d0c        0xc u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+                0x08000d18                . = ALIGN (0x8)
+                0x08000d18                _etext = .
+
+.vfp11_veneer   0x08000d18        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000d18        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08000d18        0x0
+ .iplt          0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+
+.rodata         0x08000d18       0x48
+                0x08000d18                . = ALIGN (0x8)
+ *(.rodata)
+ .rodata        0x08000d18       0x40 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                0x08000d18                MSIRangeTable
+                0x08000d48                AHBPrescTable
+ *(.rodata*)
+ .rodata.str1.4
+                0x08000d58        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                                  0x2 (size before relaxing)
+ .rodata._global_impure_ptr
+                0x08000d5c        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x08000d5c                _global_impure_ptr
+                0x08000d60                . = ALIGN (0x8)
+
+.rel.dyn        0x08000d60        0x0
+ .rel.iplt      0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+
+.ARM.extab      0x08000d60        0x0
+                0x08000d60                . = ALIGN (0x8)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000d60                . = ALIGN (0x8)
+
+.ARM            0x08000d60        0x0
+                0x08000d60                . = ALIGN (0x8)
+                0x08000d60                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000d60                __exidx_end = .
+                0x08000d60                . = ALIGN (0x8)
+
+.preinit_array  0x08000d60        0x0
+                0x08000d60                . = ALIGN (0x8)
+                0x08000d60                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08000d60                PROVIDE (__preinit_array_end, .)
+                0x08000d60                . = ALIGN (0x8)
+
+.init_array     0x08000d60        0x8
+                0x08000d60                . = ALIGN (0x8)
+                0x08000d60                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x08000d60        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x08000d64        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+                0x08000d68                PROVIDE (__init_array_end, .)
+                0x08000d68                . = ALIGN (0x8)
+
+.fini_array     0x08000d68        0x8
+                0x08000d68                . = ALIGN (0x8)
+                0x08000d68                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08000d68        0x4 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+                0x08000d6c                PROVIDE (__fini_array_end, .)
+                0x08000d70                . = ALIGN (0x8)
+ *fill*         0x08000d6c        0x4 
+                0x08000d70                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x430 load address 0x08000d70
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x4 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                0x20000000                SystemCoreClock
+ *(.data*)
+ *fill*         0x20000004        0x4 
+ .data.impure_data
+                0x20000008      0x428 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x20000430                . = ALIGN (0x8)
+                0x20000430                _edata = .
+
+.jcr            0x20000430        0x0 load address 0x080011a0
+ .jcr           0x20000430        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+
+.igot.plt       0x20000430        0x0 load address 0x080011a0
+ .igot.plt      0x00000000        0x0 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+                0x20000430                . = ALIGN (0x4)
+
+.bss            0x20000430      0x5c0 load address 0x080011a0
+                0x20000430                _sbss = .
+                0x20000430                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000430       0x1c u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .bss           0x2000044c       0x3c Src/i2c.o
+                0x2000044c                hi2c2
+ .bss           0x20000488       0x24 Src/rtc.o
+                0x20000488                hrtc
+ .bss           0x200004ac      0x17c Src/spi.o
+                0x200004ac                hspi1
+                0x20000510                hspi3
+                0x20000574                hdma_spi1_tx
+                0x200005b0                hdma_spi1_rx
+                0x200005ec                hdma_spi3_tx
+ .bss           0x20000628      0x3c8 Src/usb_otg.o
+                0x20000628                hpcd_USB_OTG_FS
+ *(.bss*)
+ *(COMMON)
+                0x200009f0                . = ALIGN (0x4)
+                0x200009f0                _ebss = .
+                0x200009f0                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200009f0      0x600 load address 0x080011a0
+                0x200009f0                . = ALIGN (0x8)
+                0x200009f0                PROVIDE (end, .)
+                0x200009f0                PROVIDE (_end, .)
+                0x20000bf0                . = (. + _Min_Heap_Size)
+ *fill*         0x200009f0      0x200 
+                0x20000ff0                . = (. + _Min_Stack_Size)
+ *fill*         0x20000bf0      0x400 
+                0x20000ff0                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x16 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+ .ARM.attributes
+                0x00000016       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+ .ARM.attributes
+                0x00000046       0x21 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .ARM.attributes
+                0x00000067       0x37 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .ARM.attributes
+                0x0000009e       0x37 Src/dma.o
+ .ARM.attributes
+                0x000000d5       0x37 Src/gpio.o
+ .ARM.attributes
+                0x0000010c       0x37 Src/i2c.o
+ .ARM.attributes
+                0x00000143       0x37 Src/main.o
+ .ARM.attributes
+                0x0000017a       0x37 Src/rtc.o
+ .ARM.attributes
+                0x000001b1       0x37 Src/spi.o
+ .ARM.attributes
+                0x000001e8       0x37 Src/stm32l4xx_it.o
+ .ARM.attributes
+                0x0000021f       0x37 Src/usb_otg.o
+ .ARM.attributes
+                0x00000256       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000286       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002b6       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000002e6       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000316       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000346       0x30 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000376       0x18 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtn.o
+OUTPUT(main.out elf32-littlearm)
+
+.debug_line     0x00000000     0x11cf
+ .debug_line    0x00000000       0xab Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .debug_line    0x000000ab      0x1b5 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_line    0x00000260      0x167 Src/dma.o
+ .debug_line    0x000003c7      0x190 Src/gpio.o
+ .debug_line    0x00000557      0x1e1 Src/i2c.o
+ .debug_line    0x00000738      0x2ac Src/main.o
+ .debug_line    0x000009e4      0x1a8 Src/rtc.o
+ .debug_line    0x00000b8c      0x287 Src/spi.o
+ .debug_line    0x00000e13      0x1af Src/stm32l4xx_it.o
+ .debug_line    0x00000fc2      0x20d Src/usb_otg.o
+
+.debug_info     0x00000000     0x4889
+ .debug_info    0x00000000       0x9f Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .debug_info    0x0000009f      0x55e Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_info    0x000005fd      0x5fe Src/dma.o
+ .debug_info    0x00000bfb      0x511 Src/gpio.o
+ .debug_info    0x0000110c      0x95f Src/i2c.o
+ .debug_info    0x00001a6b      0xc52 Src/main.o
+ .debug_info    0x000026bd      0x96c Src/rtc.o
+ .debug_info    0x00003029      0xac8 Src/spi.o
+ .debug_info    0x00003af1      0x344 Src/stm32l4xx_it.o
+ .debug_info    0x00003e35      0xa54 Src/usb_otg.o
+
+.debug_abbrev   0x00000000      0xdad
+ .debug_abbrev  0x00000000       0x12 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .debug_abbrev  0x00000012      0x120 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_abbrev  0x00000132      0x11e Src/dma.o
+ .debug_abbrev  0x00000250      0x148 Src/gpio.o
+ .debug_abbrev  0x00000398      0x1dd Src/i2c.o
+ .debug_abbrev  0x00000575      0x1c4 Src/main.o
+ .debug_abbrev  0x00000739      0x14b Src/rtc.o
+ .debug_abbrev  0x00000884      0x1e1 Src/spi.o
+ .debug_abbrev  0x00000a65      0x14e Src/stm32l4xx_it.o
+ .debug_abbrev  0x00000bb3      0x1fa Src/usb_otg.o
+
+.debug_aranges  0x00000000      0x150
+ .debug_aranges
+                0x00000000       0x28 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .debug_aranges
+                0x00000028       0x20 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_aranges
+                0x00000048       0x20 Src/dma.o
+ .debug_aranges
+                0x00000068       0x20 Src/gpio.o
+ .debug_aranges
+                0x00000088       0x20 Src/i2c.o
+ .debug_aranges
+                0x000000a8       0x28 Src/main.o
+ .debug_aranges
+                0x000000d0       0x20 Src/rtc.o
+ .debug_aranges
+                0x000000f0       0x20 Src/spi.o
+ .debug_aranges
+                0x00000110       0x20 Src/stm32l4xx_it.o
+ .debug_aranges
+                0x00000130       0x20 Src/usb_otg.o
+
+.debug_ranges   0x00000000      0x148
+ .debug_ranges  0x00000000       0x20 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ .debug_ranges  0x00000020       0x40 Src/dma.o
+ .debug_ranges  0x00000060       0x48 Src/gpio.o
+ .debug_ranges  0x000000a8       0x30 Src/main.o
+ .debug_ranges  0x000000d8       0x58 Src/spi.o
+ .debug_ranges  0x00000130       0x18 Src/usb_otg.o
+
+.debug_loc      0x00000000      0x2de
+ .debug_loc     0x00000000      0x1c0 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_loc     0x000001c0       0x42 Src/i2c.o
+ .debug_loc     0x00000202       0x9a Src/spi.o
+ .debug_loc     0x0000029c       0x42 Src/usb_otg.o
+
+.debug_str      0x00000000     0x1d01
+ .debug_str     0x00000000      0x3b3 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                                0x410 (size before relaxing)
+ .debug_str     0x000003b3      0x512 Src/dma.o
+                                0x809 (size before relaxing)
+ .debug_str     0x000008c5       0x9e Src/gpio.o
+                                0x3a0 (size before relaxing)
+ .debug_str     0x00000963      0x454 Src/i2c.o
+                                0x827 (size before relaxing)
+ .debug_str     0x00000db7      0x4f5 Src/main.o
+                                0xd7e (size before relaxing)
+ .debug_str     0x000012ac      0x37f Src/rtc.o
+                                0x71e (size before relaxing)
+ .debug_str     0x0000162b      0x242 Src/spi.o
+                                0x826 (size before relaxing)
+ .debug_str     0x0000186d       0xa4 Src/stm32l4xx_it.o
+                                0x43c (size before relaxing)
+ .debug_str     0x00001911      0x3f0 Src/usb_otg.o
+                                0x835 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Src/dma.o
+ .comment       0x00000000       0x71 Src/gpio.o
+ .comment       0x00000000       0x71 Src/i2c.o
+ .comment       0x00000000       0x71 Src/main.o
+ .comment       0x00000000       0x71 Src/rtc.o
+ .comment       0x00000000       0x71 Src/spi.o
+ .comment       0x00000000       0x71 Src/stm32l4xx_it.o
+ .comment       0x00000000       0x71 Src/usb_otg.o
+
+.debug_frame    0x00000000      0x468
+ .debug_frame   0x00000000       0x48 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+ .debug_frame   0x00000048       0x2c Src/dma.o
+ .debug_frame   0x00000074       0x34 Src/gpio.o
+ .debug_frame   0x000000a8       0x64 Src/i2c.o
+ .debug_frame   0x0000010c       0x50 Src/main.o
+ .debug_frame   0x0000015c       0x54 Src/rtc.o
+ .debug_frame   0x000001b0       0xb0 Src/spi.o
+ .debug_frame   0x00000260       0x5c Src/stm32l4xx_it.o
+ .debug_frame   0x000002bc       0x74 Src/usb_otg.o
+ .debug_frame   0x00000330       0x34 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+ .debug_frame   0x00000364       0x68 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000003cc       0x2c u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000003f8       0x34 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+ .debug_frame   0x0000042c       0x3c u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+ADC3_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+AHBPrescTable                                     Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+BusFault_Handler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+CAN1_RX0_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+CAN1_RX1_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+CAN1_SCE_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+CAN1_TX_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+COMP_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DFSDM0_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DFSDM1_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DFSDM2_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DFSDM3_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel1_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel2_IRQHandler                          Src/stm32l4xx_it.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel3_IRQHandler                          Src/stm32l4xx_it.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel4_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel5_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel6_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA1_Channel7_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel1_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel2_IRQHandler                          Src/stm32l4xx_it.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel3_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel4_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel5_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel6_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DMA2_Channel7_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+DebugMon_Handler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+Default_Handler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI0_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI15_10_IRQHandler                              Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI1_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI2_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI3_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI4_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+EXTI9_5_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+FLASH_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+FMC_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+FPU_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+HAL_DMA_DeInit                                    Src/spi.o
+HAL_DMA_IRQHandler                                Src/stm32l4xx_it.o
+HAL_DMA_Init                                      Src/spi.o
+HAL_Delay                                         Src/main.o
+HAL_GPIO_DeInit                                   Src/usb_otg.o
+                                                  Src/spi.o
+                                                  Src/i2c.o
+HAL_GPIO_Init                                     Src/usb_otg.o
+                                                  Src/spi.o
+                                                  Src/i2c.o
+                                                  Src/gpio.o
+HAL_GPIO_WritePin                                 Src/main.o
+HAL_I2CEx_ConfigAnalogFilter                      Src/i2c.o
+HAL_I2C_Init                                      Src/i2c.o
+HAL_I2C_MspDeInit                                 Src/i2c.o
+HAL_I2C_MspInit                                   Src/i2c.o
+HAL_IncTick                                       Src/stm32l4xx_it.o
+HAL_Init                                          Src/main.o
+HAL_MspInit                                       Src/stm32l4xx_hal_msp.o
+HAL_NVIC_EnableIRQ                                Src/dma.o
+HAL_NVIC_SetPriority                              Src/stm32l4xx_hal_msp.o
+                                                  Src/main.o
+                                                  Src/dma.o
+HAL_NVIC_SetPriorityGrouping                      Src/stm32l4xx_hal_msp.o
+HAL_PCD_Init                                      Src/usb_otg.o
+HAL_PCD_MspDeInit                                 Src/usb_otg.o
+HAL_PCD_MspInit                                   Src/usb_otg.o
+HAL_PWREx_ControlVoltageScaling                   Src/main.o
+HAL_PWREx_DisableVddUSB                           Src/usb_otg.o
+HAL_PWREx_EnableVddUSB                            Src/usb_otg.o
+HAL_RCCEx_PeriphCLKConfig                         Src/main.o
+HAL_RCC_ClockConfig                               Src/main.o
+HAL_RCC_GetHCLKFreq                               Src/main.o
+HAL_RCC_OscConfig                                 Src/main.o
+HAL_RTC_Init                                      Src/rtc.o
+HAL_RTC_MspDeInit                                 Src/rtc.o
+HAL_RTC_MspInit                                   Src/rtc.o
+HAL_RTC_SetAlarm                                  Src/rtc.o
+HAL_RTC_SetDate                                   Src/rtc.o
+HAL_RTC_SetTime                                   Src/rtc.o
+HAL_SPI_Init                                      Src/spi.o
+HAL_SPI_MspDeInit                                 Src/spi.o
+HAL_SPI_MspInit                                   Src/spi.o
+HAL_SYSTICK_CLKSourceConfig                       Src/main.o
+HAL_SYSTICK_Config                                Src/main.o
+HAL_SYSTICK_IRQHandler                            Src/stm32l4xx_it.o
+HardFault_Handler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C1_ER_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C1_EV_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C2_ER_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C2_EV_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C3_ER_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+I2C3_EV_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+LCD_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+LPTIM1_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+LPTIM2_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+LPUART1_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+MSIRangeTable                                     Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+MX_DMA_Init                                       Src/dma.o
+                                                  Src/main.o
+MX_GPIO_Init                                      Src/gpio.o
+                                                  Src/main.o
+MX_I2C2_Init                                      Src/i2c.o
+                                                  Src/main.o
+MX_RTC_Init                                       Src/rtc.o
+                                                  Src/main.o
+MX_SPI1_Init                                      Src/spi.o
+                                                  Src/main.o
+MX_SPI3_Init                                      Src/spi.o
+                                                  Src/main.o
+MX_USB_OTG_FS_PCD_Init                            Src/usb_otg.o
+                                                  Src/main.o
+MemManage_Handler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+NMI_Handler                                       Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+OTG_FS_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+PVD_PVM_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+PendSV_Handler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+QUADSPI_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+RCC_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+RNG_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+RTC_Alarm_IRQHandler                              Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+RTC_WKUP_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+Reset_Handler                                     Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SAI1_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SAI2_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SDMMC1_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SPI1_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SPI2_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SPI3_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SVC_Handler                                       Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SWPMI1_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SysTick_Handler                                   Src/stm32l4xx_it.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+SystemClock_Config                                Src/main.o
+SystemCoreClock                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+SystemCoreClockUpdate                             Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+SystemInit                                        Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TAMP_STAMP_IRQHandler                             Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM1_BRK_TIM15_IRQHandler                         Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM1_CC_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM1_TRG_COM_TIM17_IRQHandler                     Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM1_UP_TIM16_IRQHandler                          Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM2_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM3_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM4_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM5_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM6_DAC_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM7_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM8_BRK_IRQHandler                               Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM8_CC_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM8_TRG_COM_IRQHandler                           Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TIM8_UP_IRQHandler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+TSC_IRQHandler                                    Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+UART4_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+UART5_IRQHandler                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+USART1_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+USART2_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+USART3_IRQHandler                                 Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+UsageFault_Handler                                Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+WWDG_IRQHandler                                   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_Jv_RegisterClasses                               u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__bss_end__                                       u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__bss_start__                                     u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__call_exitprocs                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+__deregister_frame_info                           u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__dso_handle                                      u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__fini_array_end                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+__fini_array_start                                u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+__init_array_end                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__init_array_start                                u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__libc_fini                                       u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+__libc_fini_array                                 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__libc_init_array                                 u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+__preinit_array_end                               u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__preinit_array_start                             u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+__register_exitproc                               u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+__register_frame_info                             u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crtbegin.o
+__stack                                           u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+_ebss                                             Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_edata                                            Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_estack                                           Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_exit                                             u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+_fini                                             u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-fini.o)
+_global_impure_ptr                                u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+_impure_ptr                                       u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+_init                                             u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/crti.o
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-init.o)
+_mainCRTStartup                                   u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+_sbss                                             Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_sdata                                            Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_sidata                                           Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+_start                                            u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+atexit                                            u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+exit                                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+free                                              u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__call_atexit.o)
+g_pfnVectors                                      Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+hardware_init_hook                                u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+hdma_spi1_rx                                      Src/spi.o
+                                                  Src/stm32l4xx_it.o
+hdma_spi1_tx                                      Src/spi.o
+                                                  Src/stm32l4xx_it.o
+hdma_spi3_tx                                      Src/spi.o
+                                                  Src/stm32l4xx_it.o
+hi2c2                                             Src/i2c.o
+hpcd_USB_OTG_FS                                   Src/usb_otg.o
+hrtc                                              Src/rtc.o
+hspi1                                             Src/spi.o
+hspi3                                             Src/spi.o
+main                                              Src/main.o
+                                                  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.o
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+malloc                                            u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-__atexit.o)
+memset                                            u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                                                  u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
+software_init_hook                                u:/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/crt0.o
