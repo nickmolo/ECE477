@@ -84,17 +84,6 @@ int main(void)
   while (1)
   {
   /* USER CODE END WHILE */
-    HAL_GPIO_WritePin(RED_LED_GPIO_Port, RED_LED_Pin, GPIO_PIN_SET);
-    HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin, GPIO_PIN_SET);
-
-    HAL_Delay(500);
-
-    HAL_GPIO_WritePin(RED_LED_GPIO_Port, RED_LED_Pin, GPIO_PIN_RESET);
-    HAL_GPIO_WritePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin, GPIO_PIN_RESET);
-
-    HAL_Delay(500);
-
-
 
   /* USER CODE BEGIN 3 */
 
@@ -150,6 +139,8 @@ void MX_GPIO_Init(void)
   GPIO_InitTypeDef GPIO_InitStruct;
 
   /* GPIO Ports Clock Enable */
+  __GPIOC_CLK_ENABLE();
+  __GPIOH_CLK_ENABLE();
   __GPIOB_CLK_ENABLE();
   __GPIOE_CLK_ENABLE();
   __GPIOA_CLK_ENABLE();

@@ -1,109 +1,136 @@
-export
+######################################
+# Makefile by CubeMX2Makefile.py
+######################################
 
-DEVICE_FAMILY = STM32L4xx
-DEVICE_TYPE = STM32L476xx
-STARTUP_FILE = stm32l476xx
-SYSTEM_FILE = stm32l4xx
+######################################
+# target
+######################################
+TARGET = LEDTest
 
-CMSIS = Drivers/CMSIS
-CMSIS_DEVSUP = $(CMSIS)/Device/ST/$(DEVICE_FAMILY)
-CMSIS_OPT = -D$(DEVICE_TYPE) -DUSE_HAL_DRIVER
-OTHER_OPT = "-D__weak=__attribute__((weak))" "-D__packed=__attribute__((__packed__))" 
-CPU = -mthumb -mcpu=cortex-m4 -mfloat-abi=softfp -mfpu=fpv4-sp-d16
-SYSTEM = arm-none-eabi
+######################################
+# building variables
+######################################
+# debug build?
+DEBUG = 1
+# optimization
+OPT = -O0
 
-LDSCRIPT = "SW4STM32/STM32L476VGTx_FLASH.ld"
+#######################################
+# pathes
+#######################################
+# source path
+# Build path
+BUILD_DIR = build
 
-SRCDIR := Src/
-INCDIR := Inc/
+######################################
+# source
+######################################
+C_SOURCES = \
+  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c \
+  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c \
+  Src/main.c \
+  Src/stm32l4xx_hal_msp.c \
+  Src/stm32l4xx_it.c  
+ASM_SOURCES = \
+  Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/gcc/startup_stm32l476xx.s
 
-LIBDIR := Drivers
+#######################################
+# binaries
+#######################################
+CC = arm-none-eabi-gcc
+AS = arm-none-eabi-gcc -x assembler-with-cpp
+CP = arm-none-eabi-objcopy
+AR = arm-none-eabi-ar
+SZ = arm-none-eabi-size
+HEX = $(CP) -O ihex
+BIN = $(CP) -O binary -S
+ 
+#######################################
+# CFLAGS
+#######################################
+# macros for gcc
+AS_DEFS =
+C_DEFS = -D__weak="__attribute__\(\(weak\)\)" -D__packed="__attribute__\(\(__packed__\)\)" -DUSE_HAL_DRIVER -DSTM32L476xx
+# includes for gcc
+AS_INCLUDES =
+C_INCLUDES = -IInc
+C_INCLUDES += -IDrivers/STM32L4xx_HAL_Driver/Inc
+C_INCLUDES += -IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy
+C_INCLUDES += -IDrivers/CMSIS/Include
+C_INCLUDES += -IDrivers/CMSIS/Device/ST/STM32L4xx/Include
+C_INCLUDES += -IInc
+# compile gcc flags
+ASFLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+CFLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+ifeq ($(DEBUG), 1)
+CFLAGS += -g -gdwarf-2
+endif
+# Generate dependency information
+CFLAGS += -MD -MP -MF .dep/$(@F).d
 
-LIBINC := -IInc
-LIBINC += -IDrivers/STM32L4xx_HAL_Driver/Inc
-LIBINC += -IDrivers/CMSIS/Include
-LIBINC += -IDrivers/CMSIS/Device/ST/STM32L4xx/Include
+#######################################
+# LDFLAGS
+#######################################
+# link script
+LDSCRIPT = STM32L476VGTx_FLASH.ld
+# libraries
+LIBS = -lc -lm -lnosys
+LIBDIR =
+LDFLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
+# default action: build all
+all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
-LIBS := ./$(LIBDIR)/STM32L4xx_HAL_Driver/libstm32fw.a
-	   
-	   
-LIBS += -lm
-CC      = $(SYSTEM)-gcc
-CCDEP   = $(SYSTEM)-gcc
-LD      = $(SYSTEM)-gcc
-AR      = $(SYSTEM)-ar
-AS      = $(SYSTEM)-gcc
-OBJCOPY = $(SYSTEM)-objcopy
-OBJDUMP	= $(SYSTEM)-objdump
-GDB			= $(SYSTEM)-gdb
-SIZE		= $(SYSTEM)-size
-		
-  
-# INCLUDES = -I$(SRCDIR) $(LIBINC)
-INCLUDES = $(LIBINC)
-CFLAGS  = $(CPU) $(CMSIS_OPT) $(OTHER_OPT) -Wall -fno-common -fno-strict-aliasing -O2 $(INCLUDES) -g -Wfatal-errors -g 
-ASFLAGS = $(CFLAGS) -x assembler-with-cpp
-LDFLAGS = -Wl,--gc-sections,-Map=$*.map,-cref -T $(LDSCRIPT) #$(CPU)
-ARFLAGS = cr
-OBJCOPYFLAGS = -Obinary
-OBJDUMPFLAGS = -S
+#######################################
+# build the application
+#######################################
+# list of objects
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o)))
+vpath %.c $(sort $(dir $(C_SOURCES)))
+# list of ASM program objects
+OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+vpath %.s $(sort $(dir $(ASM_SOURCES)))
 
-STARTUP_OBJ = $(CMSIS_DEVSUP)/Source/Templates/gcc/startup_$(STARTUP_FILE).o
-SYSTEM_OBJ = $(CMSIS_DEVSUP)/Source/Templates/system_$(SYSTEM_FILE).o
+$(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR) 
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
 
-BIN = main.bin
+$(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
+	$(AS) -c $(CFLAGS) $< -o $@
 
-OBJS = $(sort \
- $(patsubst %.c,%.o,$(wildcard Src/*.c)) \
- $(patsubst %.s,%.o,$(wildcard Src/*.s)) \
- $(STARTUP_OBJ) \
- $(SYSTEM_OBJ))
+$(BUILD_DIR)/$(TARGET).elf: $(OBJECTS) Makefile
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
 
-all: $(BIN)
-
-reset:
-	$(OCD) -c init -c "reset run" -c shutdown
-	#$(GDB) main.out <reset.gdb
-
-flash: $(BIN)
-	$(OCD) -c init -c "reset halt" \
-	               -c "flash write_image erase "$(BIN)" 0x08000000" \
-			       -c "reset run" \
-	               -c shutdown
+$(BUILD_DIR)/%.hex: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
+	$(HEX) $< $@
 	
-$(BIN): main.out
-	$(OBJCOPY) $(OBJCOPYFLAGS) main.out $(BIN)
-	$(OBJDUMP) $(OBJDUMPFLAGS) main.out > main.list
-	$(SIZE) main.out
-	@echo Make finished
+$(BUILD_DIR)/%.bin: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
+	$(BIN) $< $@	
+	
+$(BUILD_DIR):
+	mkdir -p $@		
 
-main.out: $(LIBS) $(OBJS)
-	$(LD) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)
-
-$(LIBS): libs
-
-libs:
-	@$(MAKE) -C $(LIBDIR)
-
-libclean: clean
-	@$(MAKE) -C $(LIBDIR) clean
-
+#######################################
+# clean up
+#######################################
 clean:
-	-rm -f $(OBJS)
-	-rm -f main.list main.out main.hex main.map main.bin .depend
+	-rm -fR .dep $(BUILD_DIR)
+  
+#######################################
+# dependencies
+#######################################
+-include $(shell mkdir .dep 2>/dev/null) $(wildcard .dep/*)
 
-depend dep: .depend
-
-include .depend
-
-.depend: Src/*.c
-	$(CCDEP) $(CFLAGS) -MM $^ | sed -e 's@.*.o:@Src/&@' > .depend 
-
-.c.o:
-	@echo cc $<
-	@$(CC) $(CFLAGS) -c -o $@ $<
-
-.s.o:
-	@echo as $<
-	@$(AS) $(ASFLAGS) -c -o $@ $<
+# *** EOF ***
