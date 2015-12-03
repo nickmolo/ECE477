@@ -27,8 +27,8 @@ BUILD_DIR = build
 ######################################
 C_SOURCES = \
   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c \
-  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
-  Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
+	Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c \
+	Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c \
   Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c \
   Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c \
   Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c \
@@ -62,7 +62,7 @@ BIN = $(CP) -O binary -S
 #######################################
 # macros for gcc
 AS_DEFS =
-C_DEFS = -D__weak="__attribute__\(\(weak\)\)" -D__packed="__attribute__\(\(__packed__\)\)" -DUSE_HAL_DRIVER -DSTM32L476xx
+C_DEFS = "-D__weak=__attribute__((weak))" "-D__packed=__attribute__((__packed__))" -DUSE_HAL_DRIVER -DSTM32L476xx
 # includes for gcc
 AS_INCLUDES =
 C_INCLUDES = -IInc
@@ -72,8 +72,8 @@ C_INCLUDES += -IDrivers/CMSIS/Include
 C_INCLUDES += -IDrivers/CMSIS/Device/ST/STM32L4xx/Include
 C_INCLUDES += -IInc
 # compile gcc flags
-ASFLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
-CFLAGS = -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+ASFLAGS = -std=c99 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+CFLAGS = -std=c99 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2
 endif

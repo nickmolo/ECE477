@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc1IMfhe.s 			page 1
+ARM GAS  /tmp/ccvNG4G1.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
   61 001c 00127A00 		.word	8000000
   62 0020 0024F400 		.word	16000000
   63 0024 00366E01 		.word	24000000
-ARM GAS  /tmp/cc1IMfhe.s 			page 2
+ARM GAS  /tmp/ccvNG4G1.s 			page 2
 
 
   64 0028 0048E801 		.word	32000000
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
   45:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *-----------------------------------------------------------------------------
   46:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *        PLL_P                                  | 7
   47:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *-----------------------------------------------------------------------------
-ARM GAS  /tmp/cc1IMfhe.s 			page 3
+ARM GAS  /tmp/ccvNG4G1.s 			page 3
 
 
   48:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *        PLL_Q                                  | 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  102:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c **** /** @addtogroup stm32l4xx_system
  103:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   * @{
  104:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   */
-ARM GAS  /tmp/cc1IMfhe.s 			page 4
+ARM GAS  /tmp/ccvNG4G1.s 			page 4
 
 
  105:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  159:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c **** /** @addtogroup STM32L4xx_System_Private_Variables
  160:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   * @{
  161:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   */
-ARM GAS  /tmp/cc1IMfhe.s 			page 5
+ARM GAS  /tmp/ccvNG4G1.s 			page 5
 
 
  162:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   /* This variable is updated in three ways:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
   89 0006 164B     		ldr	r3, .L2
   90 0008 D3F88830 		ldr	r3, [r3, #136]
   91 000c 43F47003 		orr	r3, r3, #15728640
-ARM GAS  /tmp/cc1IMfhe.s 			page 6
+ARM GAS  /tmp/ccvNG4G1.s 			page 6
 
 
   92 0010 C2F88830 		str	r3, [r2, #136]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  224:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   SCB->VTOR = SRAM_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM */
  225:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c **** #else
  226:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
-ARM GAS  /tmp/cc1IMfhe.s 			page 7
+ARM GAS  /tmp/ccvNG4G1.s 			page 7
 
 
  124              		.loc 1 226 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  253:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *         (*) MSI_VALUE is a constant defined in stm32l4xx_hal.h file (default value
  254:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *             4 MHz) but the real value may vary depending on the variations
  255:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *             in voltage and temperature.
-ARM GAS  /tmp/cc1IMfhe.s 			page 8
+ARM GAS  /tmp/ccvNG4G1.s 			page 8
 
 
  256:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   *
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  186 0026 002B     		cmp	r3, #0
  187 0028 07D1     		bne	.L5
  278:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   { /* MSISRANGE from RCC_CSR applies */
-ARM GAS  /tmp/cc1IMfhe.s 			page 9
+ARM GAS  /tmp/ccvNG4G1.s 			page 9
 
 
  279:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****     msirange = (RCC->CSR & RCC_CSR_MSISRANGE) >> 8;
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  231              		.p2align 1
  232              	.L8:
  290:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****   {
-ARM GAS  /tmp/cc1IMfhe.s 			page 10
+ARM GAS  /tmp/ccvNG4G1.s 			page 10
 
 
  291:Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c ****     case 0x00:  /* MSI used as system clock source */
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  267 00c8 7B68     		ldr	r3, [r7, #4]
  268 00ca 022B     		cmp	r3, #2
  269 00cc 02D0     		beq	.L15
-ARM GAS  /tmp/cc1IMfhe.s 			page 11
+ARM GAS  /tmp/ccvNG4G1.s 			page 11
 
 
  270 00ce 032B     		cmp	r3, #3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  309 010e 03F0C063 		and	r3, r3, #100663296
  310 0112 5B0E     		lsrs	r3, r3, #25
  311 0114 0133     		adds	r3, r3, #1
-ARM GAS  /tmp/cc1IMfhe.s 			page 12
+ARM GAS  /tmp/ccvNG4G1.s 			page 12
 
 
  312 0116 5B00     		lsls	r3, r3, #1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  353 0152 5DF8047B 		ldr	r7, [sp], #4
  354              	.LCFI9:
  355              		.cfi_restore 7
-ARM GAS  /tmp/cc1IMfhe.s 			page 13
+ARM GAS  /tmp/ccvNG4G1.s 			page 13
 
 
  356              		.cfi_def_cfa_offset 0
@@ -741,25 +741,25 @@ ARM GAS  /tmp/cc1IMfhe.s 			page 1
  374              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  375              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
  376              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h"
-ARM GAS  /tmp/cc1IMfhe.s 			page 14
+ARM GAS  /tmp/ccvNG4G1.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32l4xx.c
-     /tmp/cc1IMfhe.s:24     .data.SystemCoreClock:00000000 SystemCoreClock
-     /tmp/cc1IMfhe.s:21     .data.SystemCoreClock:00000000 $d
-     /tmp/cc1IMfhe.s:31     .rodata.AHBPrescTable:00000000 AHBPrescTable
-     /tmp/cc1IMfhe.s:28     .rodata.AHBPrescTable:00000000 $d
-     /tmp/cc1IMfhe.s:53     .rodata.MSIRangeTable:00000000 MSIRangeTable
-     /tmp/cc1IMfhe.s:50     .rodata.MSIRangeTable:00000000 $d
-     /tmp/cc1IMfhe.s:67     .text.SystemInit:00000000 $t
-     /tmp/cc1IMfhe.s:72     .text.SystemInit:00000000 SystemInit
-     /tmp/cc1IMfhe.s:141    .text.SystemInit:00000060 $d
-     /tmp/cc1IMfhe.s:147    .text.SystemCoreClockUpdate:00000000 $t
-     /tmp/cc1IMfhe.s:152    .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-     /tmp/cc1IMfhe.s:218    .text.SystemCoreClockUpdate:00000064 $d
-     /tmp/cc1IMfhe.s:231    .text.SystemCoreClockUpdate:00000098 $t
-     /tmp/cc1IMfhe.s:361    .text.SystemCoreClockUpdate:00000158 $d
+     /tmp/ccvNG4G1.s:24     .data.SystemCoreClock:00000000 SystemCoreClock
+     /tmp/ccvNG4G1.s:21     .data.SystemCoreClock:00000000 $d
+     /tmp/ccvNG4G1.s:31     .rodata.AHBPrescTable:00000000 AHBPrescTable
+     /tmp/ccvNG4G1.s:28     .rodata.AHBPrescTable:00000000 $d
+     /tmp/ccvNG4G1.s:53     .rodata.MSIRangeTable:00000000 MSIRangeTable
+     /tmp/ccvNG4G1.s:50     .rodata.MSIRangeTable:00000000 $d
+     /tmp/ccvNG4G1.s:67     .text.SystemInit:00000000 $t
+     /tmp/ccvNG4G1.s:72     .text.SystemInit:00000000 SystemInit
+     /tmp/ccvNG4G1.s:141    .text.SystemInit:00000060 $d
+     /tmp/ccvNG4G1.s:147    .text.SystemCoreClockUpdate:00000000 $t
+     /tmp/ccvNG4G1.s:152    .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+     /tmp/ccvNG4G1.s:218    .text.SystemCoreClockUpdate:00000064 $d
+     /tmp/ccvNG4G1.s:231    .text.SystemCoreClockUpdate:00000098 $t
+     /tmp/ccvNG4G1.s:361    .text.SystemCoreClockUpdate:00000158 $d
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS
