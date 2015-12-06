@@ -9,7 +9,7 @@ CMSIS = Drivers/CMSIS
 CMSIS_DEVSUP = $(CMSIS)/Device/ST/$(DEVICE_FAMILY)
 CMSIS_OPT = -D$(DEVICE_TYPE) -DUSE_HAL_DRIVER
 #OTHER_OPT = "-D__weak=__attribute__((weak))" "-D__packed=__attribute__((__packed__))" 
-CPU = -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mlittle-endian
+CPU = -mthumb -mcpu=cortex-m4 -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mlittle-endian
 SYSTEM = arm-none-eabi
 
 LDSCRIPT = "SW4STM32/LEDTest Configuration/STM32L476VGTx_FLASH.ld"
