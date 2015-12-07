@@ -36,14 +36,9 @@ AR      = $(SYSTEM)-ar
 AS      = $(SYSTEM)-gcc
 OBJCOPY = $(SYSTEM)-objcopy
 OBJDUMP	= $(SYSTEM)-objdump
-GDB		= $(SYSTEM)-gdb
-SIZE	= $(SYSTEM)-size
-OCD	= sudo ~/openocd-git/openocd/src/openocd \
-		-s ~/openocd-git/openocd/tcl/ \
-		-f interface/stlink-v2.cfg \
-		-f target/stm32f4x_stlink.cfg
-
-
+GDB			= $(SYSTEM)-gdb
+SIZE		= $(SYSTEM)-size
+		
   
 # INCLUDES = -I$(SRCDIR) $(LIBINC)
 INCLUDES = $(LIBINC)

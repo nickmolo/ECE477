@@ -35,3 +35,5 @@ eagle.epf
 *.info
 
 *.eps
+
+*.o
