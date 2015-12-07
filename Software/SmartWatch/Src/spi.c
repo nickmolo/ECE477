@@ -88,6 +88,7 @@ void MX_SPI3_Init(void)
   hspi3.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
   hspi3.Init.NSSPMode = SPI_NSS_PULSE_ENABLED;
   HAL_SPI_Init(&hspi3);
+  //HAL_SPI_MspInit(&hspi3);
 
 }
 
@@ -235,7 +236,22 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
 } 
 
 /* USER CODE BEGIN 1 */
-
+// uint8_t TM_SPI_Send(SPI_TypeDef* SPIx, uint8_t data) {
+//     /* Check if SPI is enabled */
+//     SPI_CHECK_ENABLED_RESP(SPIx, 0);
+    
+//     /* Wait for previous transmissions to complete if DMA TX enabled for SPI */
+//     SPI_WAIT_TX(SPIx);
+    
+//     /* Fill output buffer with data */
+//     *(__IO uint8_t *)&SPIx->DR = data;
+    
+//     /* Wait for transmission to complete */
+//     SPI_WAIT_RX(SPIx);
+    
+//     /* Return data from buffer */
+//     return SPIx->DR;
+// }
 /* USER CODE END 1 */
 
 /**

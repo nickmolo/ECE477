@@ -2,7 +2,9 @@
 #include "mbed.h"
 #include "ssd1306.h"
 
-#include <stdarg.h>
+#define bool int
+#define true 1
+#define false 0
 
 #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 

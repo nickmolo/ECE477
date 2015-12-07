@@ -39,8 +39,9 @@
 #include "usb_otg.h"
 #include "gpio.h"
 
-/* USER CODE BEGIN Includes */
 
+/* USER CODE BEGIN Includes */
+#include "SSD1306.h" //SSD1306 uses SPI3
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -66,6 +67,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+  
+
 
   /* USER CODE END 1 */
 
@@ -85,18 +88,35 @@ int main(void)
   MX_SPI1_Init();
   MX_SPI3_Init();
   MX_USB_OTG_FS_PCD_Init();
+  //HAL_SPI_MspInit(&hspi3);
 
   /* USER CODE BEGIN 2 */
+
+
+  //begin();
+  //setWrap(false);
+  //fillRect(0,0,128,20,ColorHSV(1200,255,255));
+
+
+
+  // USART_TypeDef USB_UART;
+  // HAL_UART_MspInit(&USB_UART);
+  // HAL_UART_Init(&USB_UART);
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
+  char test[5]= "test";
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-  /* USER CODE END WHILE */
+ //   fillRect(0,0,128,128,ColorHSV(1200,255,255));
+    HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, GPIO_PIN_SET);
+    HAL_Delay(500);
+    HAL_GPIO_WritePin(RED_GPIO_Port, RED_Pin, GPIO_PIN_RESET);
+    HAL_Delay(500);
 
-  /* USER CODE BEGIN 3 */
+
 
   }
   /* USER CODE END 3 */

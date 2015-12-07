@@ -56,7 +56,7 @@ void MX_SPI1_Init(void);
 void MX_SPI3_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-
+//uint8_t TM_SPI_Send(SPI_TypeDef* SPIx, uint8_t data);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

@@ -1,0 +1,9 @@
+data/SSD1306/ssd1306.cpp.i
+data/SSD1306/ssd1306.h.i
+data/main.cpp.i
+data/SSD1306.lib.i
+data/SSD1306/bold_font.h.i
+data/mbed.bld.i
+data/mbed-src.lib.i
+data/SSD1306/standard_font.h.i
+data/PinDetect.lib.i
